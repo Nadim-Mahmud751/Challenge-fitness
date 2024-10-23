@@ -145,4 +145,220 @@ header {
     bottom: 330px;
     left: 150px;
   }
+  .option {
+    text-align: start;
+  }
   
+  .ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(202, 45, 21);
+  }
+  
+  
+  /* Main part styles */
+  
+  main {
+    padding: 0 30px;
+    margin: 0 auto;
+  
+  }
+  
+  .section-1 {
+    margin-top: 50px;
+  }
+  
+  .title2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.72);
+  }
+  
+  .habits {
+    color: white;
+    text-align: center;
+  }
+  
+  .all-img {
+    display: flex;
+  }
+  
+  .section-2 {
+    margin-top: 50px;
+  }
+  
+  .title3 {
+    color: white;
+  
+  }
+  
+  .btn-me {
+    width: 120px;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(231, 91, 4);
+    border: 1px solid rgb(231, 91, 4);
+  }
+  
+  .sec-2 {
+    display: flex;
+    gap: 70px;
+    background-color: rgba(128, 128, 128, 0.276);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .images {
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  table {
+    width: 200px;
+    border-collapse: collapse;
+  }
+  
+  td {
+    font-size: 8px;
+    border: 1px solid rgba(135, 134, 134, 0.271);
+    padding: 5px;
+    color: rgba(128, 128, 128, 0.732);
+  }
+  
+  th {
+    font-size: 11px;
+    border: 1px solid rgba(135, 134, 134, 0.271);
+    padding: 5px;
+    text-align: start;
+  }
+  
+  
+  .section-3lite {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: rgba(128, 128, 128, 0.276);
+    margin: 0 -30px;
+    padding: 10px 30px;
+    margin-top: 50px;
+  }
+  
+  
+  .input {
+    color: rgba(128, 128, 128, 0.648);
+    width: 190px;
+    height: 25px;
+    border-radius: 6px;
+    margin-top: 6px;
+    background-color: rgba(128, 128, 128, 0.209);
+    border: 1px solid rgba(128, 128, 128, 0.209);
+  }
+  
+  .input2 {
+    color: rgba(128, 128, 128, 0.648);
+    width: 390px;
+    height: 25px;
+    border-radius: 6px;
+    margin-top: 6px;
+    background-color: rgba(128, 128, 128, 0.209);
+    border: 1px solid rgba(128, 128, 128, 0.209);
+  }
+  
+  .grid-me{
+    display: flex;
+    gap: 5px;
+  }
+  
+  .section-4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .img-add{
+    border-radius: 10px;
+    width: 270px;
+    height: 200px;
+  }
+  
+  .img-grid{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.179);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .extra{
+    background-image: url('../images/trainer1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .extra2{
+    background-image: url('../images/trainer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .extra3{
+    background-image: url('../images/trainer3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .extra4{
+    background-image: url('../images/exercise4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 8px;
+  }
+  .extra5{
+    margin-top: 8px;
+    background-image: url('../images/trainer5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .extra6{
+    margin-top: 8px;
+    background-image: url('../images/trainer6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .edit{
+    margin-top: 150px;
+    margin-left: 10px;
+    color: aliceblue;
+  }
+  
+  .edit>h1{
+    font-size: 1rem;
+  }  
